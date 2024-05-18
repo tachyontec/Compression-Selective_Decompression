@@ -1,6 +1,8 @@
 # Compression-Selective_Decompression
 Elias-Fano compression implementation in Python, created for the Data Structures and Algorithms course. The script reads a list of integers from a file, compresses them into two bit arrays (L and U), and prints the compressed representation along with their SHA-256 hash.
 
+The repository where the task was published is [here](https://github.com/nataliakassou/assignment-2022-1).
+
 ## Overview
 This Python script implements the Elias-Fano compression technique for a sorted list of integers. The program reads a list of integers from a file, compresses it using two bit arrays (L and U), and prints the compressed representations along with their SHA-256 hash.
 
@@ -41,3 +43,13 @@ where <input_file> is the path to the file containing the list of integers.
 4. **Populating Bit Arrays:**
     - The script splits each integer into parts for `L` and `U` and fills the respective bit arrays.
 5. **Output:** Prints the bit arrays `L` and `U` in binary format and the SHA-256 hash of the concatenated arrays.
+
+## Notes
+- Ensure the input file contains integers, each on a new line.
+- The script does not handle input errors or invalid data types.
+
+## Author
+- Aris Fetzian
+
+## License
+This project is licensed under the MIT License.
